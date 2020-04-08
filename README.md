@@ -55,6 +55,5 @@ $ open ./document/dbdoc/README.md
 
 Update database document.
 ```sh
-$ make app-db-fresh
 $ make doc-db-update
 ```
