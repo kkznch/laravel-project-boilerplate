@@ -1,13 +1,11 @@
 # Laravel Project Boilerplate
 
 ## Requirement
-
 - PHP >= 7.x
 - Docker
 - Docker Compose 
 
 ## Setup
-
 Clone this repository.
 ```shell
 $ git clone git@github.com/kkznch/laravel-project-boilerplate.git
@@ -45,14 +43,11 @@ Init application.
 $ make app-init
 ```
 
-# Other Documents 
-
+# Documents 
 ## OpenAPI
-
 Access to `http://localhost:8080`.
 
 ## DBDoc
-
 Open the database document.
 ```sh
 $ open ./document/dbdoc/README.md
@@ -60,5 +55,6 @@ $ open ./document/dbdoc/README.md
 
 Update database document.
 ```sh
+$ make app-db-fresh
 $ make doc-db-update
 ```
