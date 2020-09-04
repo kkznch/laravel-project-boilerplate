@@ -30,7 +30,7 @@ services:
       - ${MAILHOG_SMTP_PORT:-1025}:1025
       - ${MAILHOG_HTTP_PORT:-8025}:8025
   doc-api:
-    image: swaggerapi/swagger-ui
+    image: swaggerapi/swagger-ui:v3.31.1
     ports:
       - ${DOC_API_PORT:-8080}:8080
     volumes:
