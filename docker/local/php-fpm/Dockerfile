@@ -14,4 +14,3 @@ RUN pecl install xdebug && docker-php-ext-enable xdebug
 COPY ./xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-RUN composer global require hirak/prestissimo
